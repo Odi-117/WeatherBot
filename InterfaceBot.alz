@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<heimer-mind-map version="2.6.0">
+ <color r="143" b="229" g="137"/>
+ <edge-color r="0" b="0" g="0"/>
+ <grid-color r="78" b="6" g="154"/>
+ <edge-width>3000</edge-width>
+ <text-size>11000</text-size>
+ <corner-radius>5000</corner-radius>
+ <graph>
+  <node index="18" h="226000" x="-49281" y="184485" w="335000">
+   <text>/start_menu
+
+Текст:
+Вы вернулись в начальное меню
+
+Кнопки:
+Показать погоду (/show_weather)
+Выбрать геолокацию (/set_geoposition)
+
+Текстовые кнопки:
+-</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="22" h="370000" x="-922683" y="743086" w="431000">
+   <text>/today
+
+Текст:
+Выберите время за которое хотите узанть погоду:
+
+Кнопки:
+Показать за целый день(/weather_all_day)
+Стартовое меню(/start_menu)
+
+
+Текстовые кнопки:
+00:00 (/weather_time[time])
+01:00 (/weather_time[time])
+.
+.
+.
+23:00 (/weather_time[time])
+00:00 (/weather_time[time])
+</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="24" h="334000" x="-1507726" y="1321301" w="455000">
+   <text>/weather_all_day
+
+Текст:
+&lt;&lt;Текст погоды за все часы от актуального времени
+до 00:00>>
+
+Кнопки:
+
+
+Текстовые кнопки:
+00:00 (/weather_time[time])
+01:00 (/weather_time[time])
+.
+.
+.
+23:00 (/weather_time[time])
+00:00 (/weather_time[time])</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="25" h="208000" x="559020" y="559666" w="288000">
+   <text>/set_geoposition
+
+Текст:
+&lt;&lt; Определение геолокации>>
+
+Кнопки:
+Подтверждение геологации
+
+Текстовые кнопки:
+</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="14" h="226000" x="-50911" y="-130215" w="509000">
+   <text>/start
+
+Текст:
+  Вы запустили бота. 
+ Который поможет вам определять погоду в вашем регионе
+
+Кнопки:
+Главное меню(/start_menu)
+
+Текстовые кнопки:
+-</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="20" h="262000" x="556793" y="196654" w="513000">
+   <text>/show_weather
+
+Текст:
+Для определения погоды в вашем регионе, вам необходимо
+ указать город в котором вы находитесь или указать свою 
+геолокацию(что позволит определить болие точную погоду)
+
+Кнопки:
+Определить геолокацию (/set_geoposition)
+Главное меню(/start_menu)
+
+Текстовые кнопки:
+</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="23" h="352000" x="-1554165" y="953813" w="359000">
+   <text>(/weather_time[time])
+
+Текст:
+Погода за время [time]
+
+Кнопки:
+Показать за целый день(/weather_all_day)
+Стартовое меню(/start_menu)
+
+Текстовые кнопки:
+00:00 (/weather_time[time])
+01:00 (/weather_time[time])
+.
+.
+.
+23:00 (/weather_time[time])
+00:00 (/weather_time[time])
+</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <node index="15" h="280000" x="-645790" y="203420" w="423000">
+   <text>/show_weather
+
+Текст:
+Выберите периуд за
+который хотите увидеть погоду в вашем регионе
+
+Кнопки:
+Сегодня (/today)
+Неделя (/week)
+Две недели (/towweek)
+стартовое меню(/start_menu)
+
+Текстовые кнопки:
+-</text>
+   <color r="255" b="255" g="255"/>
+   <text-color r="0" b="0" g="0"/>
+  </node>
+  <edge index1="20" index0="18" arrow-mode="1" reversed="0"/>
+  <edge index1="18" index0="22" arrow-mode="0" reversed="0"/>
+  <edge index1="23" index0="22" arrow-mode="0" reversed="0"/>
+  <edge index1="18" index0="14" arrow-mode="0" reversed="0"/>
+  <edge index1="25" index0="20" arrow-mode="0" reversed="0"/>
+  <edge index1="24" index0="23" arrow-mode="1" reversed="0"/>
+  <edge index1="18" index0="23" arrow-mode="0" reversed="0"/>
+  <edge index1="22" index0="15" arrow-mode="0" reversed="0"/>
+  <edge index1="18" index0="15" arrow-mode="1" reversed="1"/>
+ </graph>
+ <layout-optimizer min-edge-length="100000" aspect-ratio="1000"/>
+</heimer-mind-map>
