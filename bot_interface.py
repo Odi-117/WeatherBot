@@ -7,9 +7,6 @@ import os
 import pickle
 from telebot import types
 
-# Nf2wnhFmbyN75vmXfcvrN7zaIjLam7zk
-
-
 class BotInterface:
     def __init__(self) -> None:
         self._weather = weather.Weather(
